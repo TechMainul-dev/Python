@@ -1,0 +1,116 @@
+17. Check git install version- 
+	git --version
+
+19. How to initialize- 
+	git init
+
+20. How to config git username and email- 
+	git config --global user.name "____"
+	git config --global user.email "____"
+	
+20. How to config New username and email- 
+	git config user.name "____"
+	git config user.email "____"
+
+21. Check git username and email- 
+	git config --list
+
+22. Use of git status-  
+	git status
+
+23. How to stage changes (file add)-
+	git add ('file name' 
+	or use '.' dot 
+	or --all)
+
+24. How to commit-  
+	{git commit
+	press 'i' text file added
+	press 'ESCP'
+	press ':x'}
+	
+	git commit -m "your comment here"	
+	
+25. List all changes/commits using git log- 
+	All changes-
+		git log
+		git log -oneline
+	
+26. Use of git checkout- 
+	git checkout "serial number"
+
+27. Use of git diff-  
+	git diff
+
+28. Use of git show- 
+	git show "serial number"
+
+29. See diffrence between two commits-  
+	git diff "serial num' 'serial num"
+
+30. Use of git diff stagged-  (after commit)
+	git diff --staged
+
+31. Remove/Delete files using git rm and reset HEAD- (after delete your file please commit it)
+	git rm 'file name'
+	git reset HEAD 'file name'
+
+39. Push using SSH Key- (https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+	
+
+40. How to clone-  
+	copy clone link & paste command section
+	
+41. How to fecth and pull-  
+
+42. Git Branching-  
+	git branch 'right yout branch name is here'
+	
+	git branch 
+	git checkout 'switching branch name'
+	
+	git checkout -b 'new branch name'
+	
+	git merge 'main & other branch name"
+	
+	git branch -D 'branch name for delete'
+	
+43. How to git stash and clean- 
+	git stash
+	git stash pop (view previous code)
+	git stash apply (for merge all)
+	
+	git stash list
+	git stash pop 'serial num' (for go specific stash)
+	
+	git clean -f -n 
+	git clean 'serial text'
+	
+44. How to use .gitignore-  (if you wanr .scss or .sass file)
+	touch .gitignore (after create git ignore file then open those file then type file exrention)
+	
+45. How to fork (copy github project) in github-  
+	click folk button
+	check your repository
+
+46. How to create pull request-  
+	create new repository
+	create branch
+	propose new file
+	Crate pull request-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
