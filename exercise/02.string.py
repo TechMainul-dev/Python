@@ -1,10 +1,20 @@
 #Exercise_02
 # Ask user to input 3 numbers and you have to print average of three numbers using string formatting.
 
-x, y, z = int(input("input 3 number like separated x, y, z : "))
-total = x + y + z
-print (str(total))
+#x, y, z = int(input("input '3' number like separated x, y, z : ").split(","))
 
-
-#https://www.youtube.com/watch?v=OxwM4g24Anw&list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j&index=26
+x = int(input("x = "))
+y = int(input("x = "))
+z = int(input("x = "))
 print()
+
+print(f"x = {x} \ny = {y} \nz = {z}")
+total = x + y + z
+print(f"total = {x+y+z}")
+
+
+#total = x + y + z
+#print(str(total))
+
+
+# name, age = input("enter your name,age : ").split(",")
