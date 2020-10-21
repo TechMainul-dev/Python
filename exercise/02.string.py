@@ -4,5 +4,3 @@
 x, y, z = input("input num with separated x, y, z : ").split(",")
 
 print(f"average = {(int(x) + int(y) + int(z))/3}")
-
-print(float(5))
