@@ -1,1 +1,4 @@
-https://www.youtube.com/watch?v=XqrICVWDL60&list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j&index=31
+#Ask user name and print back user name in reverse order
+
+name =input("Type your name here : ")
+print("Your Reverse name is : " + name[::-1])
