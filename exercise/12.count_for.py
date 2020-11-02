@@ -10,8 +10,9 @@
         # h : 2
 
 name = "Akash khan" #input("enter your name : ")
-temp = ""
+temp_var = ""
+
 for i in range(len(name)):
-    if name[i] not in temp:
+    if name[i] not in temp_var:
         print(f"{name[i]} : {name.count(name[i])}")
-        temp += name[i]
+    temp_var += name[i]
