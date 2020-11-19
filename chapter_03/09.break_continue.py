@@ -11,6 +11,6 @@ print("________________\n")
 print("Continue keyword :")
 
 for i in range(1, 11):
-    if i == 5:
+    if i == 9:
         continue
     print(i)
