@@ -1,18 +1,22 @@
-# break and continue keyword
+# Modify number gusessing number
+# Guess a number
 
-# 1 to 10 print
-print("Break keyword\n")
+import random
+winning_number = 43
+guess = 1
+number = int(input("guess a number between 1 and 100 : "))
+game_over = False
 
-for i in range(1, 11):
-    if i == 5:
-        break
-    print(i)
-print("________________\n")
-print("Continue keyword :")
-
-for i in range(1, 11):
-    if i == 9:
-        continue
-    print(i)
-
-# DRY - don't repeat yourself
+while not game_over:
+    if number == winning_number:
+        print(f"you win, and you guessed this number in {guess} times ")
+        game_over = True
+    else:
+        if number < winning_number:
+            print("too low ")
+            guess += 1
+            number = int(input("guess again : "))
+        else:
+            print("too high")
+            guess += 1
+            number = int(input("guess again : "))
