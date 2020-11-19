@@ -17,4 +17,8 @@ print('\n______for loop______\n')
 for i in range(1, 11, 2):
     print(i)
 # ====================================
-print('\n____________\n')
+print('\n______break keyword______\n')
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)
