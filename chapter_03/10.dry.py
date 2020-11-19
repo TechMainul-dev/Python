@@ -2,7 +2,7 @@
 # Guess a number
 
 import random
-winning_number = 43
+winning_number = random.randint(1, 100)
 guess = 1
 game_over = False
 
