@@ -4,10 +4,10 @@
 import random
 winning_number = 43
 guess = 1
-number = int(input("guess a number between 1 and 100 : "))
 game_over = False
 
 while True:
+    number = int(input("guess a number between 1 and 100 : "))
     if number == winning_number:
         print(f"you win, and you guessed this number in {guess} times ")
         break
@@ -18,5 +18,5 @@ while True:
             print("too high")
 
         guess += 1
-        number = int(input("guess again : "))
+        continue
 # DRY - don't repeat yourself
