@@ -14,9 +14,9 @@ while not game_over:
     else:
         if number < winning_number:
             print("too low ")
-            guess += 1
-            number = int(input("guess again : "))
         else:
             print("too high")
-            guess += 1
-            number = int(input("guess again : "))
+
+        guess += 1
+        number = int(input("guess again : "))
+# DRY - don't repeat yourself
