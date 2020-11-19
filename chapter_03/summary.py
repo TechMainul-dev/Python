@@ -1,6 +1,8 @@
 # if statement
-name = "Akash"
-if name == "Akash":
+name = "khan"
+if name == "Akash" or name == "akash":
     print("You are Akash")
+elif name == "khan" or name == "Khan":
+    print("Your are khan")
 else:
-    print("You are not Akash")
+    print("You are not Akash or Khan")
