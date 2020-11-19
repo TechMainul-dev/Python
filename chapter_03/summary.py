@@ -8,7 +8,7 @@ else:
     print("You are not Akash or Khan")
 
 # While loop
-i = 0
-while i < 10:
-    print("hello world")
+i = 1
+while i <= 10:
+    print(f"{i} Khan")
     i += 1
