@@ -13,8 +13,7 @@ print('--------------------------------')
 def odd_even(num):
     if num % 2 == 0:
         return "even"
-    else:
-        return "odd"
+    return "odd"
 
 
-print(odd_even(10))
+print(odd_even(11))
