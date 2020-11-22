@@ -1,12 +1,13 @@
 # functions practice
 print('--------------------------------')
+name = ("input your name : ")
 
 
 def last_char(name):
     return name[-1]
 
 
-print(last_char("Akash"))
+print(last_char(name))
 print('--------------------------------')
 
 
