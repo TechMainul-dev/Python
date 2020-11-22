@@ -5,10 +5,10 @@ print(len(name))\
 print('-----------')
 
 
-def add_two(a, b):
-    return a + b
+def add_two(num1, num2):
+    return num1 + num2
 
 
-# total = add_two(5, 4)
-# print(total)
-print(add_two(3, 4))
+a = int(input("enter first number : "))
+b = int(input("enter second number : "))
+print(add_two(a, b))
