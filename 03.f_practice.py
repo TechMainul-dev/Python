@@ -21,9 +21,7 @@ print('--------------------------------')
 
 
 def is_even(num):
-    if num % 2 == 0:
-        return True
-    return False
+    return num % 2 == 0  # True
 
 
-print(is_even(10))
+print(is_even(9))
