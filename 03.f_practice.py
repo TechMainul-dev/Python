@@ -7,3 +7,14 @@ def last_char(name):
 
 
 print(last_char("Akash"))
+print('--------------------------------')
+
+
+def odd_even(num):
+    if num % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+
+print(odd_even(10))
