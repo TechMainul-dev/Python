@@ -25,3 +25,11 @@ def is_even(num):
 
 
 print(is_even(9))
+print('--------------------------------')
+
+
+def song():
+    return "happy birthday song"
+
+
+print(song())
