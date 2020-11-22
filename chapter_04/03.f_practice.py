@@ -1,6 +1,6 @@
 # functions practice
-print('--------------------------------')
-name = ("input your name : ")
+print('------return last letter---------')
+name = input("input your name : ")
 
 
 def last_char(name):
@@ -8,7 +8,9 @@ def last_char(name):
 
 
 print(last_char(name))
-print('--------------------------------')
+# ------------------------------------------
+print('--------Even or Odd detected------')
+num = int(input("Enter your number : "))
 
 
 def odd_even(num):
@@ -17,20 +19,21 @@ def odd_even(num):
     return "odd"
 
 
-print(odd_even(11))
-print('--------------------------------')
+print(odd_even(num))
+# ------------------------------------------
+print('---------boolean output-----------')
 
 
 def is_even(num):
     return num % 2 == 0  # True
 
 
-print(is_even(9))
-print('--------------------------------')
+print(is_even(num))
+print('---------greeting---------')
 
 
-def song():
-    return "happy birthday song"
+def greeting():
+    return "Thank you very much"
 
 
-print(song())
+print(greeting())
